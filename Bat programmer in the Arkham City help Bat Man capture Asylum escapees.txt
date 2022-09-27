@@ -1,0 +1,20 @@
+//Problem: Bat programmer in the Arkham City help Bat Man capture Asylum escapees
+
+
+public class Test{
+    
+    public static int findNumOfStepsRequired(int patients,int step){
+
+        return patients*step;
+
+    }
+    
+    //Start From Here
+    public static void main(String[] args){
+
+        int patients=3;
+        int step=10;
+
+        System.out.println(findNumOfStepsRequired(patients,step));
+    }
+}
